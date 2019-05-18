@@ -2,9 +2,7 @@ package modelo;
 
 import java.io.Serializable;
 
-@SuppressWarnings("serial")
-// @Entity
-// @Table(name="libro")
+
 public class Libro implements Serializable {
 
 	private int isbn;

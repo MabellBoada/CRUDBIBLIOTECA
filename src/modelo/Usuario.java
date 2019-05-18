@@ -2,11 +2,13 @@ package modelo;
 
 import java.io.Serializable;
 
-@SuppressWarnings("serial")
-@Entity
-@Table(name="usuario")
+
 public class Usuario implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int idUsuario;
 	private String nombre;
 	private String identificacion;
